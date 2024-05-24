@@ -1,0 +1,39 @@
+.hero {
+  padding-top: 50px;
+}
+.hero_contents {
+  background-image: url("../../assets/hero-image.png");
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+  width: 100%;
+}
+.hero_texts {
+  color: #fff;
+}
+.hero_texts h3 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  width: 840px;
+}
+.hero_texts p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 578px;
+}
+.hero_texts p span {
+  color: #ffd050 !important;
+}
+.hero_texts h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+}
+.hero_texts h4 span {
+  font-weight: 900;
+}

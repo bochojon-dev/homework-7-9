@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #232536;
+}
+.nav_contents {
+  padding: 25px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_items {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.nav_items ul {
+  display: flex;
+  gap: 40px;
+}
+button {
+  margin-left: 30px;
+}
+.nav_logo {
+  background: coral;
+}
