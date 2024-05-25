@@ -1,4 +1,9 @@
 .hero {
+  background: radial-gradient(
+    30.56% 76.04% at 74.58% 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
   padding-top: 50px;
 }
 .hero_contents {
@@ -25,6 +30,12 @@
   font-weight: 400;
   line-height: 28px;
   width: 578px;
+}
+.hero_texts button {
+  margin: 0;
+}
+.duis {
+  padding: 16px 0 48px;
 }
 .hero_texts p span {
   color: #ffd050 !important;

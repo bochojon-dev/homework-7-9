@@ -1,0 +1,21 @@
+.footer_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_icons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 56px 0;
+}
+.footer {
+  background: #232536;
+  color: #fff;
+}
+.footer_contents p {
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}

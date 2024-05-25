@@ -4,9 +4,11 @@
   right: 0;
   left: 0;
   background: #232536;
+  z-index: 101;
 }
 .nav_contents {
-  padding: 25px 0;
+  z-index: 100;
+  padding: 16px 0;
   color: #fff;
   display: flex;
   align-items: center;

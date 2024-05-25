@@ -17,6 +17,7 @@ ul {
   list-style-type: none;
 }
 button {
+  cursor: pointer;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -24,4 +25,10 @@ button {
   padding: 16px 48px;
   background: #ffd050;
   border: 0;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  transform: scale(0.95);
 }
