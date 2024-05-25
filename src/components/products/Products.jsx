@@ -1,17 +1,8 @@
+"use client";
 import React from "react";
 
-async function getData() {
-  const res = await fetch("https://dummyjson.com/products");
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-
-  return res.json();
-}
-const Products = async () => {
-  const data = await getData();
-  console.log(data);
+const Products = ({ data }) => {
+  console.log(data?.products);
   return (
     <div>
       <h2>Products</h2>
