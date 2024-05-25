@@ -1,0 +1,27 @@
+.team_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team_contents {
+  padding: 120px 0 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+.team_text h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #232536;
+}
+.team_text {
+  width: 500px;
+}
+.team_text h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #232536;
+  padding: 16px 0;
+}

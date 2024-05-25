@@ -10,7 +10,7 @@ const Category = () => {
   return (
     <div className="container">
       <div className="category_contents">
-        <h3>Choose A Category</h3>
+        <h2>Choose A Category</h2>
         <div className="category_items">
           <div className="category_item">
             <Image alt="category" src={category1} />

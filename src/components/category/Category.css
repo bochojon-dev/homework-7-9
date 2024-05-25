@@ -44,6 +44,12 @@
 .category_item:hover startup {
   background: #fbf6ea;
 }
+.category_contents h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #232536;
+}
 .category_item h3 {
   font-size: 28px;
   font-weight: 700;
