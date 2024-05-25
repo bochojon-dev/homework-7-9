@@ -4,7 +4,7 @@ import Products from "@/components/products/Products";
 import React from "react";
 
 async function getData() {
-  const res = await fetch("https://dummyjson.com/products");
+  const res = await fetch("https://dummyjson.com/products?limit=3&skip=6");
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");
